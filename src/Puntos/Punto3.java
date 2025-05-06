@@ -89,5 +89,6 @@ public class Punto3 {
                     System.out.println("Ingrese una opción válida.");
             }
         } while (bandera);
+        scanner.close();
     }
 }

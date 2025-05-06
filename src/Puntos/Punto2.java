@@ -28,5 +28,6 @@ public class Punto2 {
         double promedio = promedio(nota1, nota2, nota3);
 
         System.out.println("El promedio es: " + promedio + "\nFinal: " + finalCurso(promedio));
+        scanner.close();
     }
 }

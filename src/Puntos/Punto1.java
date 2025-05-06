@@ -28,6 +28,6 @@ public class Punto1 {
         System.out.println("La conversion de 2 metros a centimetros es: " + metrosCentimetos(metros));
         System.out.println("La conversion de 4 Kilos a Libras es: " + kiloLibras(kilos));
         System.out.println("La conversion de 100°C a °F es: " + celciusFarenheit(celcius));
-
+        scanner.close();
     }
 }
